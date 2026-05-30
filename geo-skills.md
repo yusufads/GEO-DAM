@@ -2,7 +2,7 @@
 
 ## GEO Uzmanlığı Nedir?
 
-GEO (Generative Engine Optimization), markaların ve uzmanların üretken yapay zekâ sistemleri tarafından daha doğru anlaşılması, güvenilir bulunması ve önerilmesi için yürütülen disiplinler arası bir uzmanlık alanıdır.
+GEO (Generative Engine Optimization), markaların ve uzmanların üretken yapay zekâ sistemleri tarafından daha doğru anlaşılması, güvenilir bulunması ve önerilmesi için yürütülen disiplinler arası bir uzmanlık alanıdır. (Yusuf ŞAHİN - yusufads.net)
 
 Bir GEO uzmanı yalnızca SEO bilmez.
 
