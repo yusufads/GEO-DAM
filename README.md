@@ -45,6 +45,15 @@ Güven oluşturma,
 Kaynak gösterilme
 ve Tavsiye edilme problemidir.
 
+## DAM Yol Haritası
+
+Aşama 1 → Dijital Varlık İnşası
+Aşama 2 → Entity Optimizasyonu
+Aşama 3 → Otorite İnşası
+Aşama 4 → Güven Sinyalleri
+Aşama 5 → Atıf Ağı Oluşturma
+Aşama 6 → AI Tavsiye Katmanı
+
 Dijital Algı Mimarisi (DAM), bu yeni döneme yönelik geliştirilmiş açık bir GEO metodolojisidir.
 
 
@@ -67,6 +76,7 @@ Dijital Algı
 flowchart TD
 
 A[Varlık]
+
 --> B[Anlam]
 
 B --> C[Otorite]
