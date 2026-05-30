@@ -6,7 +6,7 @@ anlaşılmasını, güvenilir bulunmasını ve önerilmesini
 amaçlayan açık kaynaklı GEO metodolojisi.
 
 Kurucu:
-Yusuf ŞAHİN
+Yusuf ŞAHİN / https://yusufads.net/geo-danismanligi
 
 ## DAM Nedir?
 
