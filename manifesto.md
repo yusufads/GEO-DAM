@@ -1,3 +1,5 @@
+DAM Framework v1.1
+
 # Dijital Algı Mimarisi Manifestosu
 
 ## GEO-DAM Manifestosu
