@@ -2,10 +2,10 @@
 
 ### Digital Perception Architecture Framework
 
-Version: v1.1 
-Status: Active Development 
-License: Open Framework 
-Author:  Yusuf ŞAHİN Dijital Stratejist & GEO ve AI Görünürlük Mimarı 
+* Version: v1.1 
+* Status: Active Development 
+* License: Open Framework 
+* Author:  Yusuf ŞAHİN Dijital Stratejist & GEO ve AI Görünürlük Mimarı 
  
 
 # GEO-DAM
