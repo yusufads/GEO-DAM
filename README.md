@@ -161,10 +161,10 @@ alanlarına odaklanmaktadır.
 
 Website:
 
-https://yusufads.net
-https://yusufads.net/geo-danismanligi
-https://www.linkedin.com/in/yusufsahin-geo
-https://yapayzekageo.com
+* https://yusufads.net 
+* https://yusufads.net/geo-danismanligi 
+* https://www.linkedin.com/in/yusufsahin-geo 
+* https://yapayzekageo.com 
 
 ---
 
