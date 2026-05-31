@@ -1,6 +1,6 @@
 # Changelog
 
-## DAM Framework v1.1
+## v1.1
 
 ### Added
 
@@ -8,20 +8,15 @@
 - DAM-6 Framework
 - DAM Principles
 - DAM Roadmap
+- DAM vs SEO
+- DAM vs GEO
 - GEO Skills
 - Entity Engineering
 - Trust Signals
 - Citation Engineering
-- First DAM Case Study
+- First Case Study
 
 ### Improved
 
 - Repository structure
 - Documentation hierarchy
-- Framework definitions
-
----
-
-## DAM Framework v1.0
-
-Initial release.
