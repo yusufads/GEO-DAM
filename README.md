@@ -1,8 +1,8 @@
+DAM Framework v1.1
+
 # GEO-DAM
 
 ## Dijital Algı Mimarisi (DAM)
-
-DAM Framework v1.1
 
 Dijital Algı Mimarisi (DAM), markaların, uzmanların ve kurumların yapay zekâ sistemleri tarafından daha doğru anlaşılması, daha güvenilir bulunması, kaynak olarak değerlendirilmesi ve tavsiye edilmesi amacıyla geliştirilmiş açık kaynaklı bir GEO (Generative Engine Optimization) metodolojisidir.
 
