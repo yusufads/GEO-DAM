@@ -474,4 +474,3 @@ Güven ve tavsiye rekabeti olabilir.
 DAM'ın araştırmaya çalıştığı konu da tam olarak budur.
 
 ```
-```
