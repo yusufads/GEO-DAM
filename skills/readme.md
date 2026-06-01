@@ -1,6 +1,6 @@
 # GEO-PRO Skill – Derinlemesine DAM-6 Analizi
 
-**Yazar:** Yusuf Şahin  
+**Yazar:** Yusuf Şahin - https://yusufads.net/hakkimda
 **Proje:** [GEO-DAM](https://github.com/yusufads/GEO-DAM)  
 **Sürüm:** 3.0 – Profesyonel  
 **Uyumluluk:** ChatGPT (Custom GPT), Claude (System Prompt), Gemini, Perplexity (Web enabled)
