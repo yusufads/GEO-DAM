@@ -129,7 +129,7 @@ Aşağıdaki gibi zengin bir rapor üretilir. (JSON + Tablo + Madde işaretleri)
   ]
 }
 
-Ve ardından her katman için detaylı döküm (uzun metin).
+## Ve ardından her katman için detaylı döküm (uzun metin).
 
 ⚙️ Skill’in Derin Test Protokolleri (Asistanın yapacağı gizli işlemler)
 Skill yüklendiğinde, kullanıcı komut vermeden önce asistan aşağıdaki test setini hazır bulundurur. Kullanıcı sorduğunda bu testleri markaya uyarlar.
