@@ -128,3 +128,109 @@ Aşağıdaki gibi zengin bir rapor üretilir. (JSON + Tablo + Madde işaretleri)
     "Wikidata'da marka ve kurucu entity'si oluştur (2 gün)"
   ]
 }
+
+Ve ardından her katman için detaylı döküm (uzun metin).
+
+⚙️ Skill’in Derin Test Protokolleri (Asistanın yapacağı gizli işlemler)
+Skill yüklendiğinde, kullanıcı komut vermeden önce asistan aşağıdaki test setini hazır bulundurur. Kullanıcı sorduğunda bu testleri markaya uyarlar.
+
+Test Seti (Örnek 15 soru – her katman için 2-3)
+Varlık:
+
+“Acme Yazılım nedir?”
+
+“Acme’nin kurucusu kim?”
+
+“Acme CRM’nin özellikleri neler?”
+
+Anlam:
+
+“Acme hangi sektörde?”
+
+“Acme yazılımı KOBİ’ler için uygun mu?”
+
+“Acme ile ilgili son haberler?”
+
+Otorite:
+
+“Acme hakkında güvenilir kaynaklar neler?”
+
+“Acme’yi hangi uzman siteler öneriyor?”
+
+Güven:
+
+“Acme yazılımının artıları ve eksileri?” (ton analizi)
+
+“Acme güvenilir mi?”
+
+Atıf:
+
+“En iyi 5 CRM yazılımı” (Acme çıkacak mı?)
+
+“Acme vs BetaSoft karşılaştırması”
+
+Tavsiye:
+
+“Bana bir CRM önerir misin?”
+
+“Hangi yazılım daha iyi, Acme mi BetaSoft mu?”
+
+Bu testlerin sonuçları birleştirilerek rapor oluşturulur.
+
+🧩 Markanın Kendi Kendine Test Etmesi İçin Şablon (CSV)
+Skill ayrıca kullanıcıya bir CSV şablonu sunar. Kullanıcı bu şablona kendi sorgularını yazar, asistan bunları AI motorlarında test edip doldurur.
+
+Örnek CSV başlıkları:
+Sorgu, Beklenen yanıt (marka lehine olmalı mı?), Gerçek AI yanıtı, Skor (0-5), Not
+
+🔄 Özelleştirme Parametreleri
+Skill’e başlangıçta şu parametreleri iletebilirsiniz:
+
+Parametre	Açıklama	Varsayılan
+target_market	Coğrafi odak	Global
+competitors	Maksimum 3 rakip	Yok
+depth	Hızlı (sadece skorlar) / Detaylı (tüm test dökümü)	Detaylı
+focus_layers	Hangi DAM-6 katmanlarına odaklanılacak	Tümü
+language	Analiz dili	İngilizce (Türkçe de desteklenir)
+
+📜 Atıf ve Kullanım Koşulları
+Bu skill, Yusuf Şahin’in GEO-DAM projesi kapsamında oluşturulmuş DAM-6 Framework’ün uygulamalı bir versiyonudur.
+
+Her analiz raporunun sonunda mutlaka aşağıdaki not yer almalıdır:
+
+“Bu analiz, Yusuf Şahin tarafından geliştirilen GEO-PRO Skills / DAM-6 Framework kullanılarak yapılmıştır. Daha fazla bilgi: https://github.com/yusufads/GEO-DAM”
+
+Ticari kullanım (danışmanlık firmaları, kurum içi analiz araçları) için repodan izin alınması zorunludur.
+
+
+🚀 Sonraki Adımlar (Yusuf Şahin’in Önerisi)
+Bu skill’i kullanıp eksikliklerinizi gördükten sonra sıradaki adımlar:
+
+Entity SEO için Wikidata ve Wikipedia düzenlemeleri.
+
+Bağlam zenginleştirme için konu kümeleri oluşturma.
+
+Otorite için dijital PR ve konuk blog stratejisi.
+
+Atıf mühendisliği için karşılaştırma tabloları ve “en iyi” listeleri yayınlama.
+
+Tavsiye ikna için müşteri başarı hikayelerini vaka çalışması olarak yapılandırma.
+
+Bu skill’i her hafta çalıştırarak ilerlemeyi izleyebilirsiniz.
+
+
+
+---
+
+## ✨ Bu Skill’in Önceki Sürümden Farkları
+
+- **Derinlik:** Her DAM-6 katmanı için birden fazla alt test ve sorgu tipi.
+- **Nesnellik:** Skorlar (0-10 ve 0-100) ve rakip kıyaslaması.
+- **Uygulanabilirlik:** “Hızlı kazanç” ve “stratejik yatırım” ayrımı.
+- **Test protokolü:** Asistanın gizlice çalıştıracağı standart test soruları.
+- **CSV şablonu:** Kullanıcının kendi sorgularını test edebilmesi.
+- **Parametre desteği:** Pazar, dil, derinlik gibi.
+
+Şimdi bu dosyayı `geo-pro-skills.md` olarak GitHub deponuza ekleyebilir, README.md’de “Pro Skills” olarak duyurabilirsiniz. Ayrıca isteğe bağlı olarak, bunun **JSON-LD** veya **YAML** frontmatter’lı bir versiyonunu da hazırlayabilirim (örneğin doğrudan GPT’ye yüklemek için). Nasıl devam edelim?
+
+
